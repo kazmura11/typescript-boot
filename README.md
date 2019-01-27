@@ -31,3 +31,7 @@ src/main/client配下のREADME.mdに記載しています
 eclipseとVS Code併用で開発している場合、  
 eclipse側からstatic配下をreloadしないといけいないです。  
 もしくはサーバ再起動です。
+
+※eclipseの
+`Preferences > General > Workspace > Reflesh using native hooks or polling`
+をすれば即時反映されそうです。
