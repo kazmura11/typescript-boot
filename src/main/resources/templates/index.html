@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/index.js"></script>
+    <style>
+        #draggable {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+        }
+    </style>
+    <link href="/css/test.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/pages/page2">2ページ目へのリンク</a>
+    <div>https://glacial-webwork.com/2018/05/31/bootstrap4_beginer/ より引用</div>
+    <div id="main-contents" class="container">
+            <!-- About -->
+            <div id="about" class="row text-center">
+            <div class="col-12">
+            <h2>About</h2>
+            <p>
+                <div id="app"></div>
+                <div id="draggable" class="ui-widget-content" style="margin: auto;">
+                    <p>Drag me around</p>
+                </div>
+            </p>
+            <p class="text-right mt-3"><a href="https://glacial-webwork.com/" target="_blank">製作者：ぶー</a></p>
+            <!-- Feature -->
+            <div id="feature" class="row mt-5">
+            <div class="col-12">
+                <h2>Feature</h2>
+            </div>
+            <div class="col-sm-4">
+                <p><img src="/images/feature1.jpg" class="img-fluid rounded-circle" alt=""></p>
+                <h3>1.Bootstrap4で作成</h3>
+                <p>グリッドシステムを覚えてしまえば、だいぶ楽になります！</p>
+            </div>
+            <div class="col-sm-4">
+                <p><img src="/images/feature2.jpg" class="img-fluid rounded-circle" alt=""></p>
+                <h3>2.HTMLとCSSが分かれば、大丈夫</h3>
+                <p>難しく考えず、気楽に行きましょうか。</p>
+            </div>
+            <div class="col-sm-4">
+                <p><img src="/images/feature3.jpg" class="img-fluid rounded-circle" alt=""></p>
+                <h3>3.扱いやすいよう、少しアレンジ</h3>
+                <p>ナビゲーション部分を簡素にして、シンプルにしています。</p>
+            </div>
+            </div>
+            <!-- Access -->
+            <div id="access" class="row mt-5">
+                <div class="col-12">
+                    <h2>Access</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="map_canvas">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8306518830363!2d139.76486291555483!3d35.68117163758212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1527323582382" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-3">
+                    <table class="table table-striped">
+                        <tr><th>会社名</th><td>株式会社サンプルサンプル</td></tr>
+                        <tr><th>住所</th><td>東京都都心のど真ん中1-1-1 サンプルビル3階</td></tr>
+                        <tr><th>電話番号</th><td>012-3456-7890</td></tr>
+                        <tr><th>FAX</th><td>098-7654-3210</td></tr>
+                        <tr><th>営業時間</th><td>8:30-17:30</td></tr>
+                    </table>
+                    <p>サンプル線サンプル駅下車。南口を出て、横断歩道を渡り、鉄橋を渡り、そのまま直進し、100m先のサンプルビル3階です。</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
