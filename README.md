@@ -2,7 +2,7 @@
 Spring BootのThymeleafとWebpackとTypeScriptで
 SPAではなくMPAでプロジェクトを作る雛形です。
 従来型のサーバサイドでレンダリングして(Node.jsの機能を使ったガチなSSRではない)、  
-かつ、JQueryUIを使って画面を作りたい。  
+かつ、jQueryUIを使って画面を作りたい。  
 という場合に、TypeScript使いたいなーという個人的な要望で作ったものです。  
 あとバンドルしたいとか。
 CSSをすべてJavaScript側に寄せるのも考えたけどこの辺の切り分けが微妙です…。
